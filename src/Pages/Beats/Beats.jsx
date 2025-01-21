@@ -14,8 +14,7 @@ const Beats = () => {
             <div className="each-item" key={item.id}>
               <img src={item.image} alt="" onClick={()=> navigate(`/beats/${item.id}`)}/>
               <h2>{item.name}</h2>
-              <div className="prices">
-              </div>
+              <h4>{item.producer}</h4>
               <button className="add" onClick={()=> addBeat(item) }>{item.price}</button>
             </div>
           ))
