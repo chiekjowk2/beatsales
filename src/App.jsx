@@ -15,7 +15,7 @@ const App = () => {
     const handleHide = () => {
         hide ? setHide(false) : setHide(true)
     }
-    
+ 
     const addBeat = (newBeat) => {
         
         if(addedBeat.length === 0){

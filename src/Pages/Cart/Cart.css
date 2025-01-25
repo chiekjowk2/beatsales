@@ -1,12 +1,6 @@
-
 .cart-container{
     width: 100%;
     padding: .5rem 2rem;
-}
-.cart-container h1{
-    font-family: sans-serif;
-    color: #fff;
-    margin-bottom: 2rem;
 }
 .cart-item img{
     width: 50px;
@@ -66,9 +60,29 @@
 .top h1{
     font-family: sans-serif;
     color: #fff;
-    font-size: 1.5em;
+}
+.top h3{
+    font-family: sans-serif;
+    color: #fff;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+.bottom h2{
+    font-family: sans-serif;
+    color: #fff;
 }
 .clear-cart{
+    background-color: #ff0000;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+.checkout{
     background-color: #ff0000;
     color: #fff;
     padding: 1rem 2rem;
@@ -83,10 +97,7 @@
     background: #000;
     
 }
-.cart-container h1{
-    font-family: sans-serif;
-    color: #000;
-}
+
 .cart-item img{
     width: 100px;
     height: 100px;

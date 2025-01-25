@@ -18,7 +18,7 @@ const BeatDisplay = ({beat}) => {
         <div className="play">
           <audio src={beat.audio}  controls type="audio/mp3"></audio>
         </div>
-        <p>{beat.price}</p>
+        <p>${beat.price}</p>
         <button className="add" onClick={ addProduct}>Add to cart</button>
       </div>
     </div>
