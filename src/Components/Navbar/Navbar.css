@@ -1,24 +1,25 @@
 .navbar{
     width: 100%;
+    border-bottom: 1px solid #83838383;
 }
 .navbar-container{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: .5rem 2rem 2rem;
+    padding: .5rem 2rem;
     max-width: 1300px;
     margin: 0 auto;
     background-color: #000;
 }
-.logo{
-    border: 1px solid #565656;
-    border-radius: 50%;
+a{
+    text-decoration: none;
 }
-.logo img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+.logo h2{
+    color: #fff;
+    font-weight: 600;
+    font-family: sans-serif;
+    cursor : pointer;
 }
 
 .left{
@@ -39,10 +40,10 @@
 }
 .link a{
     text-decoration: none;
-    color: #fff;
+    color: #abababd2;
 }
 .link a:hover{
-    color: orange;
+    color: #fff;
 }
 
 .cart{

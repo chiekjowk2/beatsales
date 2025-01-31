@@ -4,6 +4,7 @@ import { appContext} from "../../App.jsx"
 import { useContext } from "react";
 import { IoCloseOutline } from "react-icons/io5";
 import { useState } from "react";
+
 import { Link , useNavigate} from "react-router-dom";
 import { RiMenu3Fill } from "react-icons/ri";
 
@@ -14,7 +15,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className='navbar-container'>
         <div className="logo">
-          <img src="/assets/IK MILES BEATS.png" alt="" />
+          <Link to="/"><h2>SoundForge</h2></Link>
         </div>
         <div className="left">
           <div className="link">

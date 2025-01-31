@@ -57,10 +57,10 @@ const App = () => {
     <appContext.Provider value={{handleHide, hide,Data , addBeat ,addedBeat, removedBeat , clearCart}} >
         <div className='app'>
             <Toaster richColors="true" position="top-right" closeButton = "true" offset={26} /> 
-                <Navbar />
+            <Navbar />
             <div className="outlets">
                 <Outlet/>
-            </div>
+            </div>          
         </div>
     </appContext.Provider>
   )

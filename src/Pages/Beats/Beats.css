@@ -1,6 +1,7 @@
 .beats{
     padding: .5rem 2rem;
     background: #000;
+    margin-top: 1rem;
 }
 .beats h1{
     font-family: sans-serif;
@@ -20,6 +21,9 @@
     margin-bottom :4rem;
     padding: 1rem;
     border-radius: .5rem;
+}
+.each-item{
+    border: 1px solid #333333;
 }
 .each-item:hover{
     background: #1e1e1e;
@@ -78,6 +82,10 @@
     .each-item img{
         width: 210px;
         height: 220px;
+    }
+    .beats{
+        padding: .5rem ;
+        background: #000;
     }
 }
 @media (max-width: 430px) {

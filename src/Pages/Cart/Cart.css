@@ -1,6 +1,7 @@
 .cart-container{
     width: 100%;
-    padding: .5rem 2rem;
+    padding: .5rem 2rem;;
+    margin-top: 1rem;
 }
 .cart-item img{
     width: 50px;
@@ -22,8 +23,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2rem;
-    background-color: #9b9b9b;
+    margin: 2rem 0rem;
+    background-color: #D8D2C2;
     padding: 1rem;
     border-radius: .5rem;
 }
@@ -95,7 +96,6 @@
     width: 100%;
     padding: .5rem 2rem;
     background: #000;
-    
 }
 
 .cart-item img{

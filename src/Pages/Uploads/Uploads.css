@@ -1,4 +1,5 @@
-.upload-container{
+.upload-container{ 
+    scrollbar-width: none;
     width: 100%;
     display: flex;
     justify-content: center;

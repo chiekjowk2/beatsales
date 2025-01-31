@@ -18,7 +18,6 @@ const Beats = () => {
               <button className="add" onClick={()=> addBeat(item) }>${item.price}</button>
             </div>
           ))
-
         }
       </div>
     </div>

@@ -76,9 +76,6 @@ const Uploads = () => {
                 <h2>Key:</h2><input type="text" />
               </div>
             </div>
-            
-            
-
         </div>
          
         </div>
