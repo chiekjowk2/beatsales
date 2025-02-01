@@ -5,6 +5,8 @@ import Cart from "./Pages/Cart/Cart.jsx"
 import Checkout from "./Pages/Checkout/Checkout.jsx"
 import Uploads from "./Pages/Uploads/Uploads.jsx"
 import Home from "./Pages/Home/Home.jsx"
+import Signup from "./Pages/Signup/Signup.jsx"
+import Signin from "./Pages/Signin/Signin.jsx"
 import Product from "./Pages/Product/Product.jsx"
 import ErrorPage from "./Pages/ErrorPage.jsx"
 const router = createBrowserRouter([
@@ -23,8 +25,8 @@ const router = createBrowserRouter([
 
         },
         {
-            path: "/beats/:id",
-            element: <Product/>,
+          path: "/beats/:id",
+          element: <Product/>,
         },
         {
           path: "/cart",
@@ -37,6 +39,14 @@ const router = createBrowserRouter([
         {
           path: "/Uploads",
           element: <Uploads/>,
+        },   
+        {
+          path: "/signup",
+          element: <Signup/>,
+        }, 
+        {
+          path: "/signin",
+          element: <Signin/>,
         },
       ],
     }
